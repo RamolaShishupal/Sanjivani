@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sanjivani</string>
+    <string name="username">Username</string>
+    <string name="hospital_admin">Hospital Admin</string>
+    <string name="blood_donor">Blood Donor</string>
+    <string name="next">next</string>
+    <string name="welcome_to_sanjivani_blood_donation_app">Welcome To Sanjivani Blood Donation App</string>
+    <string name="login">Login</string>
+    <string name="signup">SIgnUp</string>
+    <string name="password">Password</string>
+
+</resources>

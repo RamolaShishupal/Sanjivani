@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_signup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+
+
+        <Button
+            android:id="@+id/btnadmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hospital_admin"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="150dp"
+            tools:layout_editor_absoluteY="448dp" />
+
+        <Button
+            android:id="@+id/btndonor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/blood_donor"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="150dp"
+            tools:layout_editor_absoluteY="536dp" />
+
+
+
+</LinearLayout>

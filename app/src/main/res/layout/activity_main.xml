@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sanjivani Blood Bank App" />
+
+    <TextView
+        android:id="@+id/tvuname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="enter username" />
+
+    <EditText
+        android:id="@+id/etuname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="username" />
+
+    <TextView
+        android:id="@+id/tvpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="enter password" />
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signup" />
+
+</LinearLayout>
